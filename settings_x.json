@@ -1,11 +1,11 @@
 {
-  "min_volume_24h": 5000000000,
-  "min_atr_pct": 1.8,
-  "max_positions": 8,
-  "base_risk": 0.025,
-  "rr_min": 3.5,
-  "vol_z_threshold": 2.8,
-  "momentum_threshold": 0.045,
-  "iv_rank_min": 75,
-  "updated": "2025-11-17 22:00:00"
+  "min_volume_24h": 4000000000,
+  "min_atr_pct": 1.5,
+  "max_positions": 7,
+  "base_risk": 0.999,
+  "rr_min": 3.0,
+  "vol_z_threshold": 2.5,
+  "momentum_threshold": 0.04,
+  "iv_rank_min": 70,
+  "updated": "2025-11-17T23:59:59"
 }
