@@ -1,5 +1,5 @@
 {
-  "min_volume_24h": 4000000000,
+  "min_volume_24h": 1000000000,
   "min_atr_pct": 1.5,
   "max_positions": 7,
   "base_risk": 0.999,
