@@ -1,0 +1,20 @@
+name: Push settings_x.json to server
+
+on:
+  push:
+    paths:
+      - 'settings_x.json'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH로 파일 전송
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: 221.150.11.211
+          username: hummer
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "settings_x.json"
+          target: "/home/hummer/myproject/ultimate_scalping_bot/config/"
